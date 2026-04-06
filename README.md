@@ -2,12 +2,10 @@
 📌 Overview
 
 This project is an AI-powered system that detects whether a news headline is fake or real and analyzes how it spreads across a network over time.
-
 It combines Machine Learning, simulation modeling, and interactive visualization to provide insights into the lifecycle of news propagation.
 
 🚀 Features
-🧠 Fake News Detection using TF-IDF + Machine Learning
-
+🧠 Fake News Detection using TF-IDF + Machine Learning.
 📊 Propagation Simulation based on SIR (Susceptible-Infected-Recovered) model
 
 🌐 Network Graph Visualization using NetworkX
