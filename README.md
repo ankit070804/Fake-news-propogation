@@ -1,59 +1,6 @@
 🕵️ Fake News Propagation Intelligence System
-📌 Overview
 
-This project is an AI-powered system that detects whether a news headline is fake or real and analyzes how it spreads across a network over time.
-It combines Machine Learning, simulation modeling, and interactive visualization to provide insights into the lifecycle of news propagation.
-
-🚀 Features
-🧠 Fake News Detection using TF-IDF + Machine Learning.
-📊 Propagation Simulation based on SIR (Susceptible-Infected-Recovered) model
-
-🌐 Network Graph Visualization using NetworkX
-
-📈 Interactive Charts using Plotly
-⚡ Real-time Dashboard built with Streamlit
-
-📄 Automated Report Generation
-
-⚠️ Risk Scoring System for news credibility
-
-
-🛠️ Tech Stack
-
-Programming: Python
-
-Machine Learning: Scikit-learn
-
-Data Processing: Pandas, NumPy
-
-Visualization: Plotly, NetworkX
-
-Web App: Streamlit
-
-
-📊 How It Works
-
-User inputs a news headline and parameters (tweets, virality, etc.)
-
-Model predicts probability of fake vs real news
-
-System simulates how the news spreads over time
-
-
-Graphs show:
-
-Spread (people sharing)
-
-Recovery (people stopping belief)
-
-Network graph represents how information flows
-
-
-▶️ Run Locally
-
-pip install -r requirements.txt
-
-streamlit run fake_news.py
+The Fake News Propagation Intelligence System is an AI-powered application that detects whether a news headline is fake or real and analyzes how it spreads over time. The system uses machine learning techniques such as TF-IDF vectorization and classification models to predict the credibility of news content. It further simulates the spread of information using an SIR (Susceptible-Infected-Recovered) model, treating news propagation similar to a viral process. The application provides interactive visualizations using Plotly and NetworkX to display propagation trends and network structures. Built with Streamlit, the system offers a real-time dashboard where users can input parameters like tweet volume and virality to observe spread dynamics, risk levels, and generate reports. This project demonstrates the integration of machine learning, data visualization, and simulation modeling to understand and analyze the impact of fake news.
 
 
 📁 Project Structure
@@ -71,23 +18,3 @@ streamlit run fake_news.py
 ├── requirements.txt
 
 └── README.md
-
-
-🎯 Use Cases
-
-Fake news detection and analysis
-
-Social media monitoring
-
-Research on information spread
-
-Educational demonstration of SIR model
-
-
-📈 Future Improvements
-
-Integration with real-time social media APIs
-
-Advanced NLP models (BERT, Transformers)
-Improved accuracy with larger datasets
-Deployment on cloud platforms
